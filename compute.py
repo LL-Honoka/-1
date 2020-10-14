@@ -16,6 +16,11 @@ def read_csv(input_file_name):
 read_csv(input_file_name)
 output_file_name = open('csv_test.csv','w')
 
+def compute(data):
+    """
+    算出两个词语的共现概率、单独出现的概率，并套入公式
+    """
+    
 def save_csv(data, output_file_name):
     """
     将数据写入csv文件
